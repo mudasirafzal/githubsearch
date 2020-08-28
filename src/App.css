@@ -1,0 +1,49 @@
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+  padding:10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a{
+  color:#3d714e
+}
+.moveTop{
+  margin : 20px 0px!important;
+}
+.moveDown {
+  margin-top: 15%;
+}
+/* Custom css */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #aaa;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #aaa;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-card {
+    width: 48%;
+  }
+}

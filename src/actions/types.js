@@ -1,0 +1,5 @@
+export const CLEAR_DATA = 'CLEAR_DATA';
+export const DISPLAY_DATA = 'DISPLAY_DATA';
+export const FETCH_NEW_REPOS = 'FETCH_NEW_REPOS';
+export const FETCH_NEW_USERS = 'FETCH_NEW_USERS';
+export const FETCH_FROM_STORAGE = 'FETCH_FROM_STORAGE';
