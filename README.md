@@ -4,7 +4,8 @@ It uses github search api to fetch data, The Search API helps you search for the
 
 This project uses redux-persist. Redux persist takes Redux state object and save it to Persistence storage. This minimizes the api calls for the data which is already fetched to storage.
 
-Demo: 
+Demo: http://mstechlabs.com/githubsearch
+
 
 ## Available Scripts
 
