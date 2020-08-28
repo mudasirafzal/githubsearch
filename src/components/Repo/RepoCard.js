@@ -16,7 +16,7 @@ const Title = styled.h5((props) => ({
 }));
 const RepoCard = (props) => {
   return (
-      <Card>
+      <Card className = "main-card">
         <div>
           
           <Title>

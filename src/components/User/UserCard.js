@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { css } from "emotion";
 
 const Card = styled.div(() => ({
-  width: "32%",
   border : "1px solid #efefef",
 }));
 
@@ -34,7 +33,7 @@ const UserCard = (props) => {
   console.log(user, 'user log');
 
     return (
-      <Card>
+      <Card className="main-card">
         <CardImg>
           <img src={user?.avatar_url} alt=""/>
         </CardImg>
