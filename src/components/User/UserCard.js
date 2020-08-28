@@ -4,7 +4,8 @@ import styled from "styled-components";
 import { css } from "emotion";
 
 const Card = styled.div(() => ({
-  border : "1px solid #efefef",
+  border: "1px solid #efefef",
+  overflowWrap: "break-word",
 }));
 
 const CardImg = styled.div(() => ({
