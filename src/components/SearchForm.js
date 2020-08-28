@@ -15,7 +15,7 @@ const Wrapper = styled.div((props) => ({
 }));
 const Logo = styled.h3((props) => ({
   display: "flex",
-  alignItems: "baseline"
+  alignItems: "center",
 }));
 const Heading = styled.div((props) => ({
   display: "flex",
@@ -26,6 +26,12 @@ const Tagline = styled.div((props) => ({
   display: "flex",
   flexDirection: "column",
   alignItems: "baseline",
+  marginLeft: "10px"
+}));
+
+const LogoText = styled.h3((props) => ({
+  fontSize: "1.5em",
+  marginBottom: 0
 }));
 
 const SearchForm = () => {
@@ -74,14 +80,16 @@ const SearchForm = () => {
       } >
         <Heading>
           <Logo>
+            <div>
             <img
               src={logo}
               alt="Logo"
               width="40px"
               style={{ marginTop: "5px" }}
             />
+            </div>
             <Tagline>
-            <font>GitHub Searcher</font>
+            <LogoText>GitHub Searcher</LogoText>
               <p className={css`
                 font-size: 15px;
                 color: #8a8a8a;
@@ -110,6 +118,7 @@ const SearchForm = () => {
               height:40px;
               font-size:16px;
             `}
+            autoFocus
           />
           <select
             name="listValue"
